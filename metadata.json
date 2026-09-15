@@ -1,0 +1,8 @@
+{
+  "name": "Remix ATVSLD Report Generator",
+  "description": "Hệ thống tạo, quản lý và xuất biên bản kiểm tra ATVSLĐ chuẩn Word (.docx) kèm cấu hình triển khai Vercel",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

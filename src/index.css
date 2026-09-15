@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  *, ::before, ::after {
+    font-family: "Times New Roman", Times, "Liberation Serif", Cambria, serif !important;
+  }
+
+  html, body {
+    font-family: "Times New Roman", Times, "Liberation Serif", Cambria, serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  input, button, textarea, select {
+    font-family: "Times New Roman", Times, "Liberation Serif", Cambria, serif !important;
+  }
+}
+
+@page {
+  size: A4 landscape;
+  margin: 15mm;
+}
+
+@media print {
+  body {
+    background-color: white !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  header, nav, button, .no-print {
+    display: none !important;
+  }
+}
